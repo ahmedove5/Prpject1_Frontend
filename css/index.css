@@ -1,0 +1,33 @@
+body{
+    background-image: url("1.jpg");
+}
+
+
+
+#inputInvalid{
+    height: 50%;
+    width: 50%;
+    margin-top: 284px;
+    margin-left: 300px;
+}
+
+
+#inputInvalid1{
+    
+    width: 50%;
+   
+    margin-left: 300px;
+;
+}
+
+
+#btn_sign{
+    
+   
+    margin-left: 300px;
+}
+
+
+#group_sign{
+    margin-top: 250px;
+}
