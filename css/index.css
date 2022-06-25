@@ -7,11 +7,39 @@
 
 
   @media screen and (max-width: 600px) {
-    .showcase-content , .desc-0 , .desc-1 , .desc-2 ,.desc-3 {
+    .showcase-content  {
       width: 100%;
       grid-template-columns:1 ;
     }
   }
+
+  
+  
+  @media screen and (max-width: 600px) {
+    .desc-0 {
+      width: 100%;
+      grid-template-columns:1 ;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .desc-1 {
+      width: 100%;
+      grid-template-columns:1 ;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .desc-2 {
+      width: 100%;
+      grid-template-columns:1 ;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .desc-3 {
+      width: 100%;
+      grid-template-columns:1 ;
+    }
+  }
+
 
 
   @media screen and (max-width: 600px) {
