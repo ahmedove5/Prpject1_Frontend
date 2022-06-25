@@ -37,23 +37,40 @@ body{
 
 #group_sign{
     margin-top: 250px;
-    /* background-image: url("1.jpg"); */
+     /* background-image: url("1.jpg");  */
 }
 
 
+@media only screen and (min-width: 600px) {
+    #btn_sign{
+    
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 
+    /* For tablets: */}
 
 
 @media screen and (max-width: 600px) {
     #group_sign {
       width: 100%;
+
     }
+    
+  #btn_sign{
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
   }
 
-  @media screen and (max-width: 600px) {
-    #nvbar1 {
-      width: 100%;
-    }
-  }
 
-  
+
+
