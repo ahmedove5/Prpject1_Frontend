@@ -19,6 +19,32 @@
 
 
 
+@media screen and (max-width: 600px) {
+    .card1 {
+      width: 100%;
+      margin-left: 200px;
+
+    }
+    
+   
+    .card2 {
+        
+     margin-left: 200px;
+        }
+
+
+    .card3 {
+     margin-left: 200px;
+          }
+  
+
+
+        
+      }
+
+
+
+
 
 
 

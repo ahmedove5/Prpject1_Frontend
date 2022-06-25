@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/signup.js"></script>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+  
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nvbar1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: red">NETFLIX</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item" >
+                <a class="nav-link active" href="index.html" style="color: red">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html" style="color: red"> sign up</a>
+              </li>
+             
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>REGISTER</h1>
+    
+            <label for="name">Email</label>
+            <input type="email" id="name" placeholder="Username" required>
+    
+            <label for="pw">Password</label>
+            <input type="password"
+                   id= "pw"
+                   placeholder="Password" required>
+    
+            <ul class="helper-text">
+                <li class="length">Must be at least 8 characters long.</li>
+                <li class="lowercase">Must contain a lowercase letter.</li>
+                <li class="uppercase">Must contain an uppercase letter.</li>
+                <li class="special">Must contain a number or special character.</li>
+            </ul>
+            <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
+    
+        </form>
+    </div>
+    
+    
+    
+
+    
+</body>
+</html>
