@@ -8,4 +8,4 @@
 
 
 
-- [netflix] (file:///C:/Users/a-5am/python-bootcamo/frontend/week1/project1/Prpject1_Frontend/index.html)
+- [netflix](https://ahmedove5.github.io/Prpject1_Frontend/index.html)
